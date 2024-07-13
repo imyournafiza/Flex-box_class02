@@ -1,0 +1,97 @@
+.shadow-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.parent{
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 5px solid darkblue;
+    display: flex;
+    height: 600px;
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: darkblue;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+    line-height: 150px;
+}
+
+
+.social-section{
+    width: 100%;
+    padding: 80px 0px;s
+}
+
+.social-section{
+    text-align:center  ;
+}
+
+.social-section ul{
+   margin: 0;
+   padding: 0;
+}
+
+.social-section ul li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    background: darkblue;
+    line-height: 63px;
+    border-radius: 18px 0px;
+    transition: 0.7s;
+}
+
+.social-section ul li:hover{
+    background: black;
+    border-radius: 0px 18px;
+    transition: 0.7s;
+}
+
+.social-section ul li a{
+   
+}
+
+.social-section ul li a i{
+    color: white;
+    font-size: 22px;
+    transition: 0.7s;
+}
+
+.social-section ul li:hover .fa{
+    color: aqua;
+     transform: rotate(360deg);
+     transition: 0.7s;
+}
+
+
+
+.shadow-section{
+    width: 100;
+    padding: 80px 0px;
+}
+
+.shadow-section .box{
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    margin-left: 55px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+}
+
+.shadow-section .box i{
+    font-size: 50px;
+}
